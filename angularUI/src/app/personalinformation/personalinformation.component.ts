@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PersonalinformationComponent implements OnInit {
 
   name = 'John Condon';
-  address = ​'Phibsborough, Dublin';
+  address = ​'Dublin, Ireland';
   email =​ 'johnnycndn@gmail.com';
   linkedIn = 'https://www.linkedin.com/in/johnnycondon';
   github ​= 'https://github.com/jaycondon';
