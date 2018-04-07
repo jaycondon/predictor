@@ -40,8 +40,8 @@ ehthumbs.db
 # Predictor Django Project
 ##########################
 **/ScrapperApp/__pycache__/*
-
-
+/ScrapperApp/.coverage
+/ScrapperApp/htmlcov/*
 
 
 
