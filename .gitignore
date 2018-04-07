@@ -6,6 +6,7 @@ compiled source #
 *.exe
 *.o
 *.so
+*.pyc
 
 # Packages #
 ############
@@ -38,7 +39,7 @@ ehthumbs.db
 
 # Predictor Django Project
 ##########################
-/ScrapperApp/ScrapperApp/__pycache__/*
+**/ScrapperApp/__pycache__/*
 
 
 
