@@ -43,6 +43,10 @@ ehthumbs.db
 /ScrapperApp/.coverage
 /ScrapperApp/htmlcov/*
 
+# Predictor Angular Project
+##########################
+**/node_modules/**
+
 
 
 
