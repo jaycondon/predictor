@@ -26,7 +26,7 @@ SECRET_KEY = '1_pq(a!_e+jz2ulkqhlhu$jygs7$ib2rcg#ps9vjrb=1@dwxkt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['johncondon-predictor-johncondon-predictor.a3c1.starter-us-west-1.openshiftapps.com']
 
 
 # Application definition
