@@ -26,3 +26,6 @@ def index(request):
     logger.info("Finished crawling " + racingWebsite.getBaseURL() + " at " + current_time)
 
     return HttpResponse("ok")
+
+def hello(request):
+    return HttpResponse("hello")
