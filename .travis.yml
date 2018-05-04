@@ -8,5 +8,5 @@ install:
   - pip install -r ScrapperApp/requirements.txt
 
 script:
-  - coverage run --source=ScrapperApp/manage.py test
+  - ScrapperApp/manage.py test
   - coveralls
