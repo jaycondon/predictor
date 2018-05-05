@@ -9,4 +9,4 @@ install:
 
 script:
   - coverage run ScrapperApp/manage.py test
-  - coveralls
+  - coveralls --rcfile=.coveragerc
