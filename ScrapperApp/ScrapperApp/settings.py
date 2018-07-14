@@ -27,9 +27,7 @@ SECRET_KEY = '1_pq(a!_e+jz2ulkqhlhu$jygs7$ib2rcg#ps9vjrb=1@dwxkt'
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['johncondon-predictor-johncondon-predictor.a3c1.starter-us-west-1.openshiftapps.com',
-                 '127.0.0.1',
-                 '0.0.0.0']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'scrapWebPage'
+    'scrapWebPage',
+    'starting_app'
 ]
 
 MIDDLEWARE = [
